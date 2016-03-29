@@ -3,9 +3,15 @@
   "version": "0.0.1",
   "description": "D3js Tutorial for Accio Code",
   "main": "index.html",
+  "repository": "https://github.com/colorfest/d3js",
   "keywords": [
-    "d3", "javascript", "Accio Code", "tutorial", "beginners"
+    "d3",
+    "javascript",
+    "Accio Code",
+    "tutorial",
+    "beginners"
   ],
   "author": "Accio Code",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
