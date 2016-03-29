@@ -13,10 +13,40 @@ var javaScriptFiles     = ['js/general/app.js'];
 
 gulp.task('default', function ()
 {
-    var js  = gulp.src('javaScriptFiles');
-    return js.pipe(concat('d3jsproject.js'))
-        .pipe(gulp.dest('js'));
+    return gulp.src(javaScriptFiles)
+        .pipe(concat('js/d3jsTutorial.js'))
+        .pipe(gulp.dest('./'));
 });
 
+gulp.task('scripts', function ()
+{
+    console.log('run scripts!');
+    return gulp.src(javaScriptFiles)
+        .pipe(concat('js/d3jsTutorial.js'))
+        .pipe(gulp.dest('./'));
+});
+
+gulp.task('sass', function ()
+{
+    gulp.src('css/*.scss')
+        .pipe(sass())
+        .pipe(gulp.dest('css/'));
+});
+
+/** run watch **/
+gulp.task('watch', function ()
+{
+    gulp.watch('js/**/*.js', ['scripts']);
+    //gulp.watch('css/**/*.scss', ['sass']);
+});
+
+gulp.task('startBrowser', function ()
+{
+    browserSync({
+        server: {
+            baseDir: './'
+        }
+    })
+});
 
 
