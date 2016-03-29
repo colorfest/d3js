@@ -1,0 +1,21 @@
+{
+  "name": "d3js",
+  "version": "0.0.1",
+  "authors": [
+    "Accio Code (cartondonofrio@gmail.com)"
+  ],
+  "description": "d3js tutorial series",
+  "main": "index.html",
+  "keywords": [
+    "d3js", "d3", "Accio Code", "beginners", "tutorial", "javascript"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

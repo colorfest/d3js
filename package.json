@@ -1,0 +1,11 @@
+{
+  "name": "d3js",
+  "version": "0.0.1",
+  "description": "D3js Tutorial for Accio Code",
+  "main": "index.html",
+  "keywords": [
+    "d3", "javascript", "Accio Code", "tutorial", "beginners"
+  ],
+  "author": "Accio Code",
+  "license": "MIT"
+}
