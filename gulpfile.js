@@ -8,13 +8,15 @@ var del         = require('del');
 var browserSync = require('browser-sync');
 
 var buildDir    = 'bin/';
+var javaScriptFiles     = ['js/general/app.js'];
 
 
 gulp.task('default', function ()
 {
     var js  = gulp.src('javaScriptFiles');
     return js.pipe(concat('d3jsproject.js'))
-        .pipe(gulp.dest('src'));
+        .pipe(gulp.dest('js'));
 });
+
 
 

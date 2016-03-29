@@ -7,7 +7,12 @@
   "description": "d3js tutorial series",
   "main": "index.html",
   "keywords": [
-    "d3js", "d3", "Accio Code", "beginners", "tutorial", "javascript"
+    "d3js",
+    "d3",
+    "Accio Code",
+    "beginners",
+    "tutorial",
+    "javascript"
   ],
   "license": "MIT",
   "private": true,
@@ -17,5 +22,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
 }
