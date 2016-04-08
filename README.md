@@ -13,3 +13,4 @@ D3 helps you bring data to life using HTML, SVG and CSS. D3’s emphasis on web 
 ## Course Videos ##
  1. An Introduction to D3js (https://www.youtube.com/watch?v=K3FMuLT_3Ik "An Introduction to D3js")
  2. Drawing SVG Images with D3js (https://youtu.be/8imtXLY0F9g "Drawing SVG Images with D3js")
+ 3. Using Data to Draw Oranges (https://www.youtube.com/watch?v=4sgzOzPo_Dc "Using Data to Draw Oranges")
