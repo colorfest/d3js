@@ -1,12 +1,3 @@
-/** this is how we start d3js with javascript **/
-function start ()
-{
-    d3.select("body")
-        .append("p")
-        .text("Load text with d3.js! today");
-
-    console.log(d3);
-}
 /**
  * Created by KC on 4/8/2016.
  */
