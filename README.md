@@ -1,6 +1,6 @@
 # Accio Code Tutorials: D3js#
 
-*** Updated 4-8-16 ***
+*** Updated 4-22-16 ***
 
 This tutorial series for [Accio Code](http://www.youtube.com/user/CDPAdvertising "Accio Code on YouTube") is a beginner's course in D3.js, a JavaScript library for displaying data dynamically on a website.
 
@@ -14,3 +14,4 @@ D3 helps you bring data to life using HTML, SVG and CSS. D3’s emphasis on web 
  1. An Introduction to D3js (https://www.youtube.com/watch?v=K3FMuLT_3Ik "An Introduction to D3js")
  2. Drawing SVG Images with D3js (https://youtu.be/8imtXLY0F9g "Drawing SVG Images with D3js")
  3. Using Data to Draw Oranges (https://www.youtube.com/watch?v=4sgzOzPo_Dc "Using Data to Draw Oranges")
+ 4. Scaling with D3js ( "Scaling with D3js")
