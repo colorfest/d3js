@@ -20,3 +20,4 @@ D3 helps you bring data to life using HTML, SVG and CSS. D3’s emphasis on web 
  7. Transitions (https://www.youtube.com/watch?v=LeJMhqA6xic "Transitions")
  8. Import JSON into D3js (https://www.youtube.com/watch?v=duGyc25m9YI "Import JSON into D3js")
  9. Using Paths in D3js (https://www.youtube.com/watch?v=0QlOBKBWcZ8 "Using Paths in D3js")
+ 10. Drawing Arcs (https://www.youtube.com/watch?v=VxQaItLwYJE "Drawing Arcs")
