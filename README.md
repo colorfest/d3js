@@ -1,6 +1,6 @@
 # Accio Code Tutorials: D3js#
 
-*** Updated 7-14-16 ***
+*** Updated 7-27-16 ***
 
 This tutorial series for [Accio Code](http://www.youtube.com/user/CDPAdvertising "Accio Code on YouTube") is a beginner's course in D3.js, a JavaScript library for displaying data dynamically on a website.
 
@@ -19,3 +19,4 @@ D3 helps you bring data to life using HTML, SVG and CSS. D3’s emphasis on web 
  6. Enter and Exit (https://www.youtube.com/watch?v=Mxt0OOBrvE0 "Enter and Exit")
  7. Transitions (https://www.youtube.com/watch?v=LeJMhqA6xic "Transitions")
  8. Import JSON into D3js (https://www.youtube.com/watch?v=duGyc25m9YI "Import JSON into D3js")
+ 9. Using Paths in D3js (https://www.youtube.com/watch?v=0QlOBKBWcZ8 "Using Paths in D3js")
