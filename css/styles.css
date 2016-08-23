@@ -1,0 +1,12 @@
+svg {
+    border: 1px solid #000000;
+}
+
+.arc text {
+    font: 10px Arial, Georgia, sans-serif;
+    text-anchor: middle;
+}
+
+.arc path {
+    stroke: #ffffff;
+}
