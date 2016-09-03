@@ -72,19 +72,20 @@ function donutChart ()
 {
     d3.json("data/suicide-squad.json", function (data)
     {
-        var radius       = 100;
+        var radius      = 100;
         var color       = d3.scale.ordinal()
             .range(["red", "orange", "yellow", "green", "blue", "indigo", "violet"]);
 
-        var canvas  = d3.select(".donutChart").append("svg")
+        var canvas      = d3.select(".donutChart")
+            .append("svg")
             .attr("width", 1000)
             .attr("height", 1000);
 
         var group       = canvas.append("g")
-            .attr("transform", "translate(500, 350)");
+            .attr("transform", "translate(500,350)");
 
         var arc         = d3.svg.arc()
-            .innerRadius(150)
+            .innerRadius(50)
             .outerRadius(radius);
 
         var pie         = d3.layout.pie()
@@ -93,7 +94,7 @@ function donutChart ()
                 return d.rank;
             });
 
-        var theArc  = group.selectAll(".arc")
+        var theArc      = group.selectAll(".arc")
             .data(pie(data))
             .enter()
             .append("g")
