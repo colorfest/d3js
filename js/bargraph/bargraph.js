@@ -74,6 +74,39 @@ function barGraph ()
             .attr("height", function (d)
             {
                 return height - y(d.rank);
+            })
+            .on("mouseover", function ()
+            {
+                tooltip.style("display", null);
+            })
+            .on("mouseout", function ()
+            {
+                tooltip.style("display", "none");
+            })
+            .on("mousemove", function (d)
+            {
+                var xPos    = d3.mouse(this)[0] - 15;
+                var yPos    = d3.mouse(this)[1] - 25;
+                tooltip.attr("transform", "translate(" + xPos + "," + yPos + ")");
+                tooltip.select("div").html("<em>" + d.name + "</em>");
+                //tooltip.select("text").html("Name: <strong>" + d.name + "</strong><br/>Rank: <strong>" + d.rank + "</strong>");
             });
+
+        var tooltip     = svg.append("g")
+            .attr("class", "tooltip")
+            .style("display", "none");
+
+        tooltip.append("rect")
+            .attr("width", 30)
+            .attr("height", 20)
+            .attr("fill", "#ffffff")
+            .style("opacity", 0.5);
+
+        tooltip.append("div")
+            .attr("x", 15)
+            .attr("dy", "1.2em")
+            .style("text-anchor", "middle")
+            .attr("font-size", "1.5em")
+            .attr("font-weight", "bold");
     })
 }

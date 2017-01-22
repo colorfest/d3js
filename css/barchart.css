@@ -8,6 +8,10 @@ body, html {
     width: auto;
 }
 
+.tooltip {
+    text-decoration: underline;
+}
+
 .axis {
     font: 10px Georgia, Arial, sans-serif;
 }
