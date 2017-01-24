@@ -15,7 +15,10 @@ function barGraph ()
     var yAxis   = d3.svg.axis()
         .scale(y)
         .orient("left")
-        .ticks(5);
+        .ticks(5)
+        .innerTickSize(-width)
+        .outerTickSize(0)
+        .tickPadding(10);
 
     var svg     = d3.select("#barGraph")
         .append("svg")
@@ -85,24 +88,17 @@ function barGraph ()
             })
             .on("mousemove", function (d)
             {
-                var xPos    = d3.mouse(this)[0] - 15;
-                var yPos    = d3.mouse(this)[1] - 25;
+                var xPos    = d3.mouse(this)[0] - 55;
+                var yPos    = d3.mouse(this)[1] - 55;
                 tooltip.attr("transform", "translate(" + xPos + "," + yPos + ")");
-                tooltip.select("div").html("<em>" + d.name + "</em>");
-                //tooltip.select("text").html("Name: <strong>" + d.name + "</strong><br/>Rank: <strong>" + d.rank + "</strong>");
+                tooltip.select("text").text("Name: " + d.name + " : Rank: " + d.rank);
             });
 
         var tooltip     = svg.append("g")
             .attr("class", "tooltip")
             .style("display", "none");
 
-        tooltip.append("rect")
-            .attr("width", 30)
-            .attr("height", 20)
-            .attr("fill", "#ffffff")
-            .style("opacity", 0.5);
-
-        tooltip.append("div")
+        tooltip.append("text")
             .attr("x", 15)
             .attr("dy", "1.2em")
             .style("text-anchor", "middle")
