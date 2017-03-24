@@ -24,7 +24,8 @@
     "tests"
   ],
   "dependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "d3": "^4.7.3"
   },
   "devDependencies": {
     "foundation": "^5.5.3"
