@@ -1,6 +1,7 @@
 # Accio Code Tutorials: D3js#
 
-*** Updated 1-22-17 ***
+*** Updated 1-22-17 ***  
+*** The tutorials are built using D3 version 3.5.16 ***  
 
 This tutorial series for [Accio Code](http://www.youtube.com/user/CDPAdvertising "Accio Code on YouTube") is a beginner's course in D3.js, a JavaScript library for displaying data dynamically on a website.
 
